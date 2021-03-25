@@ -431,7 +431,10 @@ height: 100%;
     color: white !important;
     font-size: 20px;
   }
-
+#navbarDropdown{
+  color: white !important;
+  font-size: 20px;
+}
   .section {
     height: 80vh;
   }
@@ -462,10 +465,21 @@ height: 100%;
     visibility: visible;
     display: flex;
   }
- 
+  .dropdown{
+    color: white !important;
+  }
 
   .epigrafes h5 {
       font-size: 15px;
       font-weight: 300;
   }
+}
+.dropdown-menu{
+  background-color: #ffffff;
+  border-color: transparent;
+}
+
+.dropdown-menu-index{
+  background-color: transparent;
+  border-color: transparent;
 }
